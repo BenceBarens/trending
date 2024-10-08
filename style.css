@@ -225,6 +225,9 @@ iframe{
 .wiewijzijn{
     margin-top: 3rem;
     text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -282,6 +285,7 @@ iframe{
     max-width: 50em;
     font-family: "Faustina", system-ui;
     font-size: 1.5em;
+    text-align: center;
     color: #232249;
 }
 
@@ -380,8 +384,7 @@ footer p{
 }
 
 .thumbnailimg{
-    max-width:95%;
-    border-radius: 1rem;
+    max-width:100%;
     position: absolute;
     z-index: -1;
     opacity: 50%;
@@ -394,7 +397,7 @@ footer p{
     position: absolute;
     left: 0;
     top: 0;
-    height: 45rem;
+    height: 50rem;
 
 }
 
@@ -416,6 +419,10 @@ footer p{
 }
 
 @media only screen and (min-width: 39rem) {
+
+.afleveringen article .preview p, .afleveringen article .preview ul{
+    padding: 1rem;
+}
 
 .afleveringen>p{
     margin: 1rem;
@@ -445,7 +452,6 @@ footer p{
 }
 
 article .preview div{
-    padding: 1rem;
     position: sticky;
     top: 0;
 }
